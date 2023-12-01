@@ -1,0 +1,185 @@
+
+ :root {
+    --ice-blue: #dcf3ff;
+    --white: #fff;
+    --navy:#000080;
+    --font-family: 'Roboto', sans-serif;
+    --font-family: 'Seymour One', sans-serif;
+    --background-image: url(swiss-valley.jpg);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--navy);
+    background: var(--ice-blue);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color:#fff;
+    padding:1rem;
+    border: 3.4px inset darkslateblue;
+    max-width: 20ch;
+    margin: 0 auto;
+    color: var(--navy);
+    
+}
+
+h2{
+    font-weight: 630;
+    font-size: 1.5rem;
+    text-align: Center;
+    padding: 0.5rem;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.content{
+   width: 1440px;
+   margin: 0 auto; 
+}
+
+
+header{
+    background-image: url("images/swiss-valley.jpg");
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem; 
+    height: calc(415px - 4rem); 
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
+    text-align: center;
+    list-style: none;
+    padding-left: 240px; 
+}
+
+nav a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--navy);
+    background-color:#fff;
+    padding:1rem;
+    border: 3.3px inset darkslateblue;
+}
+
+main h2{
+    padding: 0; 
+}
+
+.main > p{ 
+    max-width: 70ch;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+main > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 0;
+}
+
+.main div p{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+#p{
+    text-align: center;
+}
+
+form{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#wrapper, #wrapper1{
+    max-width: 550px;
+    margin: 0 auto;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.wrapper1{
+    padding:0;
+    padding-bottom:4em;
+}
+
+.wrapper1 label{
+    display: block;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+}
+
+.wrapper1 p{
+    margin:0;
+}
+
+.wrapper2{
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.wrapper2 label{
+    font-weight:bold;
+}
+
+legend{
+    font-weight:bold;
+}
+
+#my-submit{
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 550;
+    
+}
+
+#my-submit:hover{
+    background-color: white;
+    color: navy;
+    font-size: medium;
+    font-weight: 550;
+}
+footer{
+    background-color: darkseagreen;
+    color:#fff;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+
